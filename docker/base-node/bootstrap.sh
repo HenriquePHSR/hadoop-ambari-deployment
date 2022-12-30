@@ -1,6 +1,5 @@
-# Formatamos o namenode
-hdfs namenode -format
-
-# Iniciamos os serviços
+sh /etc/init.d/ssh start
+$HADOOP_HOME/bin/hdfs namenode -format
 $HADOOP_HOME/sbin/start-dfs.sh
-# $HADOOP_HOME/sbin/start-yarn.sh
+
+tail -f /dev/null

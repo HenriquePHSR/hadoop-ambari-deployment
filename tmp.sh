@@ -1,10 +1,4 @@
-
-
-
-
-
 update-alternatives --install /usr/bin/python python /usr/bin/python3 1
-
 
 # From the comment:
 
@@ -22,11 +16,6 @@ sudo update-alternatives --config python
 
 #Or use the following command to set python2.7 as default:
 sudo update-alternatives  --set python /usr/bin/python2.7
-
-
-
-
-
 
 wget -P ~/.local/lib https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2.7 ~/.local/lib/get-pip.py --user

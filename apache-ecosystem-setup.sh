@@ -1,6 +1,6 @@
 # All components are open source from apache foundation
 
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 export PYTHON3_VERSION=3.10
 export PYTHON2_VERSION=2.7
 export PYTHONPATH=/usr/bin/python2:/usr/bin/python3
